@@ -4,7 +4,7 @@ import {asyncHandler} from "../utils/asyncHandler.js"
 
 
 const healthcheck = asyncHandler(async (req, res) => {
-    
+
 })
 
 export {
