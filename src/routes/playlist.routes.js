@@ -27,4 +27,7 @@ router.route("/remove/:videoId/:playlistId").patch(removeVideoFromPlaylist);
 
 router.route("/user/:userId").get(getUserPlaylists);
 
+router.post("/test", (req, res) => res.send("Playlist router works!"));
+
+
 export default router
